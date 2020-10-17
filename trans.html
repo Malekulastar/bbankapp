@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add Money</title>
+	<link rel="stylesheet" type="text/css" href="trans.css">
+</head>
+<header> Add Money</header>
+<body>
+
+
+
+
+	<form  method="post">
+	<label>User id:</label>
+	<input type="text" id="userid" name="user"><br><br>
+	<label for="fname">Amount To Be Added:</label>
+    <input type="text" id="am" name="am"><br><br>
+    
+    <button class="button" onclick="select()">Start Transaction</button>
+
+     </form>
+
+
+
+
+
+
+     <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "company";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+
+    function select(){
+        echo "The select function is called.";
+    }
+    function insert(){
+        echo "The insert function is called.";
+                     }
+?>
+
+</body>
+</html>

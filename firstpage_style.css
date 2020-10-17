@@ -1,0 +1,24 @@
+header{
+font-size: 100px;
+text-align: center;
+}
+
+
+
+
+body{
+	background-image:url(pngtree.jpg);
+	background-repeat: no-repeat;
+  background-size: 300px 200px;
+  background-color: magenta;
+  border-width: 20px;
+  
+	
+
+	}
+#submit{
+	border: 1px solid black; 
+  text-align: center;
+
+
+}

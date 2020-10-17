@@ -1,0 +1,27 @@
+header{
+	text-align: center;
+	font-size: 80px;
+}
+body{
+	background-color: magenta;
+}
+form{
+	font-size: 20px;
+	text-align: center;
+
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+p{
+  word-spacing: 120px;
+}

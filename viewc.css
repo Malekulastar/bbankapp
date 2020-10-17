@@ -1,0 +1,31 @@
+body{
+    background-color: magenta;
+}
+header{
+	text-align: center;
+	font-size:50px;
+}
+
+
+
+table {
+border-collapse: collapse;
+width: 100%;
+color: #0A0909 ;
+font-family: monospace;
+font-size: 25px;
+text-align: left;
+}
+th {
+background-color: #588c7e;
+color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2
+
+}
+form{
+   text-align: center;
+   padding-top: 50px;
+
+
+}
